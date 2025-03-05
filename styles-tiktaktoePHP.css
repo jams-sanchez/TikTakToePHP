@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #2f2f2f;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    color: #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .top {
+    gap: 4rem;
+} */
+
+.msg-joueur {
+    gap: 0.5rem;
+}
+
+input {
+    cursor: pointer;
+    background: linear-gradient(to top, #A8A8A8, #F0F0F0);
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.case {
+    background-color: #F0F0F0;
+    color: #828282;
+    border: 2px solid #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    border: none;
+}
+
+#case {
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin:0.2rem;
+}
+
+#rejouer {
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin:0.1rem;
+}
+
+.msg {
+    font-size: 1.5rem;
+    color: red;
+}
+
+table {
+    text-align: center;
+    /* background-color: #2f2f2f; */
+}
+
+span {
+    font-weight: bold;
+}
+
+.joueur1,
+.joueur2 {
+    font-size: 1.5rem;
+}
+
+.joueur1 {
+    color: orange;
+}
+
+.joueur2 {
+    color: aqua;
+}
+
