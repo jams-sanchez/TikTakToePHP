@@ -1,4 +1,4 @@
-## ✖️ TikTakToePHP ⭕
+## ⭕ TikTakToePHP ✖️
 
 Dans ce jeu, deux joueurs s’affrontent. À tour de rôle, chacun désigne une
 case et y insère alternativement un signe X ou O à l’aide d’un formulaire. Le
